@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_alarm"
+        android:icon="@drawable/alarm"
+        android:title="	অ্যালার্ম"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_salat"
+        android:icon="@drawable/salat"
+        android:title="	সালাত "
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+
+    <!-- Help -->
+    <item android:id="@+id/action_seheri_iftar"
+        android:icon="@drawable/seheri_iftar"
+        android:title="	সেহেরী ও ইফতার "
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_setting"
+        android:icon="@drawable/setting"
+        android:title="সেটিং"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        />
+</menu>
